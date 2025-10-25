@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>資格道場｜メルカリShops 公認紹介ページ</title>
-  <meta name="description" content="資格道場公式のメルカリShops紹介ページ。最新の問題集・教材を一覧し、各商品のメルカリ商品ページへすぐ移動できます。">
+  <title>Skill-Up Market（スキル・アップ・マーケット）｜メルカリShops公式紹介</title>
+  <meta name="description" content="Skill-Up Market（スキル・アップ・マーケット）は、資格・教養・スキル向上に役立つPDF教材・問題集を販売する公式メルカリShops紹介サイトです。">
   <style>
     :root{--bg:#0b0d10;--card:#11151a;--muted:#9aa4af;--text:#e6e8ea;--brand:#e60012;--brand-contrast:#fff;--ring:rgba(230,0,18,.35);--shadow:0 10px 30px rgba(0,0,0,.35);--radius:16px;--maxw:1100px}
     *{box-sizing:border-box} html,body{height:100%}
@@ -27,11 +27,9 @@
     .btn-primary{background:var(--brand);color:var(--brand-contrast)} .btn-primary:hover{filter:brightness(1.05)}
     .btn-ghost{background:transparent;border-color:rgba(255,255,255,.12)} .btn-ghost:hover{background:rgba(255,255,255,.06)}
     .section{padding:28px 0 60px} .section h2{font-size:clamp(22px,3.6vw,32px);margin:8px 0 6px}
-    .section p.section-lead{color:var(--muted);margin-top:0}
     .grid{display:grid;grid-template-columns:1fr;gap:22px;margin-top:20px}
     @media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr)}}
     .card{background:linear-gradient(180deg,color-mix(in oklab,var(--card),white 2%),var(--card));border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:18px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
-    .badge{display:inline-block;font-size:12px;color:#87f7b2;border:1px solid rgba(135,247,178,.35);padding:4px 8px;border-radius:999px}
     .price{font-weight:900;font-size:20px}
     .features{margin:0;padding-left:18px;color:var(--muted);font-size:14px}
     .buy-row{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}
@@ -40,88 +38,104 @@
     .footer-grid{display:grid;gap:20px;grid-template-columns:1fr;padding:28px 0}
     @media(min-width:760px){.footer-grid{grid-template-columns:2fr 1fr 1fr}}
     .thin{font-size:13px;color:var(--muted)}
-    :is(a,button,summary,input,select,textarea):focus{outline:2px solid var(--ring);outline-offset:2px}
   </style>
 </head>
 <body>
   <header>
     <div class="container nav">
-      <div class="brand" aria-label="資格道場">
-        <div class="brand-mark" aria-hidden="true">資</div>
+      <div class="brand" aria-label="Skill-Up Market">
+        <div class="brand-mark" aria-hidden="true">S</div>
         <div>
-          <div style="font-weight:900; line-height:1">資格道場</div>
-          <div class="thin">学びたいを応援！</div>
+          <div style="font-weight:900; line-height:1">Skill-Up Market</div>
+          <div class="thin">スキル・アップ・マーケット</div>
         </div>
       </div>
       <nav class="nav-links">
         <a href="#products">商品一覧</a>
         <a href="#faq">よくある質問</a>
-        <a href="#contact">お問い合わせ</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
     <section class="hero container">
-      <div class="kicker">Official / Shikaku Dojo</div>
+      <div class="kicker">Official / Skill-Up Market</div>
       <h1 class="title">メルカリShopsで安心・かんたん購入</h1>
-      <p class="lead">以下の商品カードから、各メルカリ商品ページへ移動できます。</p>
+      <p class="lead">資格・教養・キャリアアップを応援！厳選したPDF教材・問題集を販売しています。</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="https://jp.mercari.com/shops/profile/zC3LiZKUoFM2R7WMWAgSXQ" target="_blank" rel="noopener">メルカリのショップを見る</a>
         <a class="btn btn-ghost" href="#products">商品一覧へ</a>
       </div>
     </section>
 
-    <!-- Products -->
     <section id="products" class="section container">
       <h2>商品ラインナップ</h2>
-
       <div class="grid">
+
         <!-- 商品1 -->
-        <article class="card" itemscope itemtype="https://schema.org/Product">
-          <span class="badge">おすすめ</span>
-          <img src="./images/product-a.jpg" alt="商品A の表紙画像" loading="lazy" />
-          <h3 itemprop="name">（商品タイトルA）</h3>
-          <ul class="features"><li>スマホ最適化PDF</li><li>要点まとめ付き</li><li>個人利用で印刷可</li></ul>
-          <div class="price"><span>¥</span>1,200</div>
+        <article class="card">
+          <img src="./images/japanese-teacher.jpg" alt="日本語教育能力検定試験 対策問題集 応用編100問" loading="lazy" />
+          <h3>日本語教育能力検定試験 対策問題集 応用編100問</h3>
+          <ul class="features"><li>実践的な応用問題を厳選</li><li>スマホ最適化PDF</li></ul>
+          <div class="price">¥980</div>
           <div class="buy-row">
-            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/GEQ6nQoe42GrwwKhgKZ6XE" target="_blank" rel="noopener">メルカリで購入する</a>
+            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/GKHjqoUCcucMwczKimaaAW" target="_blank" rel="noopener">メルカリで購入する</a>
           </div>
         </article>
 
         <!-- 商品2 -->
-        <article class="card" itemscope itemtype="https://schema.org/Product">
-          <img src="./images/product-b.jpg" alt="商品B の表紙画像" loading="lazy" />
-          <h3 itemprop="name">（商品タイトルB）</h3>
-          <ul class="features"><li>スマホ最適化PDF</li><li>要点まとめ付き</li><li>個人利用で印刷可</li></ul>
-          <div class="price"><span>¥</span>900</div>
+        <article class="card">
+          <img src="./images/asset-consultant.jpg" alt="資産形成コンサルタント 資格試験対策問題集300問" loading="lazy" />
+          <h3>資産形成コンサルタント 資格試験対策問題集300問</h3>
+          <ul class="features"><li>幅広い金融知識を網羅</li><li>模擬試験形式で実践力アップ</li></ul>
+          <div class="price">¥1,480</div>
           <div class="buy-row">
-            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/vVcTTGTQwmXntQzuak6Fsa" target="_blank" rel="noopener">メルカリで購入する</a>
+            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/TLeYajANDpr6hmaMSRBDYF" target="_blank" rel="noopener">メルカリで購入する</a>
           </div>
         </article>
 
         <!-- 商品3 -->
-        <article class="card" itemscope itemtype="https://schema.org/Product">
-          <img src="./images/product-c.jpg" alt="商品C の表紙画像" loading="lazy" />
-          <h3 itemprop="name">（商品タイトルC）</h3>
-          <ul class="features"><li>スマホ最適化PDF</li><li>要点まとめ付き</li><li>個人利用で印刷可</li></ul>
-          <div class="price"><span>¥</span>700</div>
+        <article class="card">
+          <img src="./images/fukushi.jpg" alt="福祉住環境コーディネーター3級 試験対策問題集" loading="lazy" />
+          <h3>福祉住環境コーディネーター3級 試験対策問題集</h3>
+          <ul class="features"><li>最新出題傾向対応</li><li>重要ポイントまとめ付き</li></ul>
+          <div class="price">¥980</div>
           <div class="buy-row">
-            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/2QRGaSYfAiQH2UExSTJfxW" target="_blank" rel="noopener">メルカリで購入する</a>
+            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/vaBKBtZoPJMjfTt7SPsmye" target="_blank" rel="noopener">メルカリで購入する</a>
           </div>
         </article>
+
+        <!-- 商品4 -->
+        <article class="card">
+          <img src="./images/chizai.jpg" alt="知的財産管理技能検定2級 試験対策問題集 セット販売可能" loading="lazy" />
+          <h3>知的財産管理技能検定2級 試験対策問題集 セット販売可能</h3>
+          <ul class="features"><li>頻出問題中心の構成</li><li>PDF・紙どちらも対応</li></ul>
+          <div class="price">¥980</div>
+          <div class="buy-row">
+            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/ebtUbESZ6BCLKaoRsozXng" target="_blank" rel="noopener">メルカリで購入する</a>
+          </div>
+        </article>
+
+        <!-- 商品5 -->
+        <article class="card">
+          <img src="./images/trade.jpg" alt="貿易実務検定B級問題集" loading="lazy" />
+          <h3>貿易実務検定B級問題集</h3>
+          <ul class="features"><li>過去問傾向を徹底分析</li><li>実務力強化に最適</li></ul>
+          <div class="price">¥880</div>
+          <div class="buy-row">
+            <a class="btn btn-primary btn-buy" href="https://jp.mercari.com/shops/product/CPoYfRWLJcJFkDrC8LNHeT" target="_blank" rel="noopener">メルカリで購入する</a>
+          </div>
+        </article>
+
       </div>
 
       <p class="thin" style="margin-top:10px">※ 当サイトは商品紹介のみを目的としており、販売・決済は外部サービス（メルカリShops）にて行われます。</p>
     </section>
 
-    <!-- FAQ -->
     <section id="faq" class="section container">
       <h2>よくある質問</h2>
       <details><summary>PDFはスマホでも読めますか？</summary><div class="thin">はい。スマホ閲覧に最適化したレイアウトです。印刷も個人利用の範囲で可能です。</div></details>
       <details><summary>支払い方法は？</summary><div class="thin">メルカリの決済（コンビニ／クレカ／ポイント等）をご利用いただけます。</div></details>
-      <details><summary>誤り・不具合があった場合は？</summary><div class="thin">メルカリの取引メッセージからご連絡ください。差し替えデータの再送等に対応します。</div></details>
     </section>
   </main>
 
@@ -129,22 +143,13 @@
     <div class="container footer-grid">
       <div>
         <div class="brand" style="margin-bottom:8px">
-          <div class="brand-mark">資</div>
+          <div class="brand-mark">S</div>
           <div>
-            <div style="font-weight:900; line-height:1">資格道場</div>
-            <div class="thin">学びたいを応援！</div>
+            <div style="font-weight:900; line-height:1">Skill-Up Market</div>
+            <div class="thin">スキル・アップ・マーケット</div>
           </div>
         </div>
-        <p class="thin">© <span id="year"></span> Shikaku Dojo. All rights reserved.</p>
-        <p class="thin">当サイトは商品紹介のみを目的としており、販売・決済は外部サービス（メルカリShops）にて行われます。</p>
-      </div>
-      <div>
-        <div class="thin">ガイド</div>
-        <ul class="thin" style="list-style:none; padding-left:0; margin-top:8px">
-          <li><a href="#products">商品一覧</a></li>
-          <li><a href="#faq">よくある質問</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
+        <p class="thin">© <span id="year"></span> Skill-Up Market. All rights reserved.</p>
       </div>
     </div>
   </footer>
